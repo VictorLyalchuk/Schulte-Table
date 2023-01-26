@@ -1,0 +1,273 @@
+﻿<Window x:Class="Operation_219.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Operation_219"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="750" Width="850" MinHeight="750" MinWidth="850" Background="#FF282828">
+    <Window.InputBindings>
+        <!--<KeyBinding Command="{Binding NewCMD}" Modifiers="Ctrl" Key ="N"></KeyBinding>
+        <KeyBinding Command="{Binding ADDCMD}" Modifiers="Ctrl" Key ="O"></KeyBinding>-->
+        <KeyBinding Command= "ApplicationCommands.Close" Modifiers="Ctrl" Key ="Q"></KeyBinding>
+
+    </Window.InputBindings>
+    <Window.CommandBindings>
+        <CommandBinding Command="ApplicationCommands.Close"
+                        Executed="CloseCommandHandler"/>
+    </Window.CommandBindings>
+
+    <Window.Resources>
+        <local:DoubleToPctConverter x:Key="dblToPct"/>
+        <Style x:Key="pbarCircularStyle" TargetType="{x:Type ProgressBar}">
+            <Setter Property="Foreground" Value="#4C87B3"/>
+            <Setter Property="Maximum" Value="100"/>
+            <Setter Property="Height" Value="100"/>
+            <Setter Property="Width" Value="100"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type ProgressBar}">
+                        <Grid x:Name="TemplateRoot" SnapsToDevicePixels="true">
+                            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center"
+                                   FontSize="32" Foreground="Gainsboro"
+                                   Text="{TemplateBinding Value, Converter={StaticResource dblToPct}}" />
+                            <local:CircularProgress Stroke="{TemplateBinding Foreground}"
+                                              Value="{TemplateBinding Value}"/>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style TargetType="{x:Type Button}">
+            <Setter Property="Background" Value="#FF282828" />
+            <Setter Property="SnapsToDevicePixels" Value="True" />
+            <Setter Property="FontSize" Value="40"/>
+            <Setter Property="Typography.Capitals" Value="Titling"/>
+            <Setter Property="Foreground" Value="Gainsboro"/>
+            <Setter Property="FontFamily" Value="Calibri Light"/>
+            <Setter Property="FontWeight" Value= "Medium"/>
+            <Setter Property="Margin" Value="3" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button" >
+                        <Border CornerRadius="4" Background="{TemplateBinding Background}" BorderBrush="#FF282828" BorderThickness="4,4,4,4">
+                            <Grid>
+                                <Path x:Name="PathIcon" Width="15" Height="25" Stretch="Fill" Fill="#4C87B3" HorizontalAlignment="Left" Margin="17,0,0,0" Data="F1 M 30.0833,22.1667L 50.6665,37.6043L 50.6665,38.7918L 30.0833,53.8333L 30.0833,22.1667 Z "/>
+                                <ContentPresenter Content="{TemplateBinding Content}" 
+                                              HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" 
+                                              VerticalAlignment="{TemplateBinding VerticalContentAlignment}"
+                                              Margin="{TemplateBinding Padding}" />
+                            </Grid>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#FF66B3E4" />
+                                <Setter Property="Foreground" Value="White" />
+                                <Setter TargetName="PathIcon" Property="Fill" Value="Black" />
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="GreenBackground" TargetType="{x:Type Button}" BasedOn="{StaticResource {x:Type Button}}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button" >
+                        <Border CornerRadius="4" Background="#FF94D34A" BorderBrush="#FF6F9E37" BorderThickness="4,4,4,4">
+                            <ContentPresenter Content="{TemplateBinding Content}" 
+                                              HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" 
+                                              VerticalAlignment="{TemplateBinding VerticalContentAlignment}"
+                                              Margin="{TemplateBinding Padding}" />
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style  x:Key="RedBackground" TargetType="{x:Type Button}" BasedOn="{StaticResource {x:Type Button}}" >
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button" >
+                        <Border CornerRadius="4" Background="#FFE2526E" BorderBrush="#FFA93D52" BorderThickness="4,4,4,4">
+                            <ContentPresenter Content="{TemplateBinding Content}" 
+                                              HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" 
+                                              VerticalAlignment="{TemplateBinding VerticalContentAlignment}"
+                                              Margin="{TemplateBinding Padding}" />
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style x:Key="WhiteBackground" TargetType="{x:Type Button}" BasedOn="{StaticResource {x:Type Button}}" >
+
+
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button" >
+                        <Border CornerRadius="4" Background="{TemplateBinding Background}" BorderBrush="#4C87B3" BorderThickness="4,4,4,4">
+                            <Grid>
+                                <Path x:Name="PathIcon2" Width="15" Height="25" Stretch="Fill" Fill="#FF282828" HorizontalAlignment="Left" Margin="17,0,0,0" Data="F1 M 30.0833,22.1667L 50.6665,37.6043L 50.6665,38.7918L 30.0833,53.8333L 30.0833,22.1667 Z "/>
+                                <ContentPresenter Content="{TemplateBinding Content}" 
+                                              HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" 
+                                              VerticalAlignment="{TemplateBinding VerticalContentAlignment}"
+                                              Margin="{TemplateBinding Padding}" />
+                            </Grid>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#FF66B3E4" />
+                                <Setter Property="Foreground" Value="White" />
+                                <Setter TargetName="PathIcon2" Property="Fill" Value="Gainsboro" />
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+
+        </Style>
+
+        <Style x:Key="WhiteForLabel" TargetType="{x:Type Label}">
+            <Setter Property="FontSize" Value="40"/>
+            <Setter Property="Typography.Capitals" Value="Titling"/>
+            <Setter Property="Foreground" Value="Gainsboro"/>
+            <Setter Property="FontFamily" Value="Calibri Light"/>
+            <Setter Property="FontWeight" Value= "Medium"/>
+            <Setter Property="Margin" Value="10,10,10,10" />
+        </Style>
+        <Style x:Key="WhiteForSmallLabel" TargetType="{x:Type Label}" BasedOn="{StaticResource WhiteForLabel}">
+            <Setter Property="FontSize" Value="14"/>
+        </Style>
+
+    </Window.Resources>
+
+    <ScrollViewer>
+        <DockPanel>
+            <Menu DockPanel.Dock="Top">
+                <MenuItem Header="Game">
+                    <MenuItem Click="MenuItem_Click" Header="New Game" InputGestureText="Ctrl+N">
+                        <MenuItem.Icon>
+                            <Image Source="Image\1.png"></Image>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Click="MenuItem_Click_5" Command="{Binding ADDCMD}" Header="Stop Game" InputGestureText="Ctrl+O">
+                        <MenuItem.Icon>
+                            <Image Source="Image\3.png"></Image>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Command="ApplicationCommands.Close" Header="Exit Game" InputGestureText="Ctrl+Q">
+                        <MenuItem.Icon>
+                            <Image Source="Image\4.png"></Image>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                </MenuItem>
+                <MenuItem Header="Difficulty ">
+                    <MenuItem Click="MenuItem_Click_2" Command="{Binding NewCMD}" Header="Easy" InputGestureText="0">
+                        <MenuItem.Icon>
+                            <Image Source="Image\11.png"></Image>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Click="MenuItem_Click_3" Command="{Binding ADDCMD}" Header="Normal" InputGestureText="1">
+                        <MenuItem.Icon>
+                            <Image Source="Image\22.png"></Image>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Click="MenuItem_Click_4" Command="{Binding RemoveCMD}" Header="Hard" InputGestureText="2">
+                        <MenuItem.Icon>
+                            <Image Source="Image\33.png"></Image>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                </MenuItem>
+            </Menu>
+            <DockPanel LastChildFill="true">
+                <DockPanel DockPanel.Dock="Bottom">
+                    <ProgressBar DockPanel.Dock="Right" Name ="progresGame" Width="200" Height="30" Value="0" Maximum="120" Foreground="CornflowerBlue" Margin="20" HorizontalAlignment="Right" VerticalAlignment="Bottom"/>
+                    <Label Style="{StaticResource WhiteForLabel}" DockPanel.Dock="Right" HorizontalAlignment="Right" VerticalAlignment="Bottom" >Progress</Label>
+
+                </DockPanel>
+
+
+                <DockPanel DockPanel.Dock="Top">
+                    <Border Margin ="5,5,5,5"  CornerRadius="5,5,5,5" Background="#FF282828">
+                        <Border Margin ="5,5,5,5"  CornerRadius="5,5,5,5" Background="#4C87B3">
+                            <Border Margin ="5,5,5,5"  CornerRadius="5,5,5,5" Background="#FF282828">
+                                <Grid x:Name="TopGrid" Width="800" Height="150" VerticalAlignment="Top">
+
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition ></RowDefinition>
+                                        <RowDefinition ></RowDefinition>
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition></ColumnDefinition>
+                                        <ColumnDefinition></ColumnDefinition>
+                                        <ColumnDefinition></ColumnDefinition>
+                                        <ColumnDefinition></ColumnDefinition>
+                                    </Grid.ColumnDefinitions>
+                                    <Button Content="Start" Grid.Row="0" Grid.Column="0" VerticalAlignment="Top" Width="180"  Click="Button_Click"></Button>
+                                    <Button Content="Stop" Grid.Row="1" Grid.Column="0" VerticalAlignment="Top" Width="180"  Click="Button_Click_2"></Button>
+                                    <Slider Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2" x:Name="TopTick" Margin="10" Width="150" Height="30" HorizontalAlignment="Left" VerticalAlignment="Top"
+                    Maximum="2" Value="0" IsSelectionRangeEnabled="True" Foreground="CornflowerBlue"
+                    TickPlacement ="BottomRight" Ticks="1,2" AutoToolTipPlacement="BottomRight" IsSnapToTickEnabled="True"/>
+                                    <Label Style="{StaticResource WhiteForSmallLabel}" Grid.Row="0" Grid.Column="1" Margin="0,0,140,0" VerticalAlignment="Bottom">Easy</Label>
+                                    <Label Style="{StaticResource WhiteForSmallLabel}" Grid.Row="0" Grid.Column="1" Margin="60,0,0,0" VerticalAlignment="Bottom">Normal</Label>
+                                    <Label Style="{StaticResource WhiteForSmallLabel}" Grid.Row="0" Grid.Column="1" Margin="140,0,0,0" VerticalAlignment="Bottom">Hard</Label>
+                                    <Label Style="{StaticResource WhiteForSmallLabel}" Grid.Row="0" Grid.Column="2" Margin="0,0,0,0" >Easy = 120 seconds</Label>
+                                    <Label Style="{StaticResource WhiteForSmallLabel}" Grid.Row="0" Grid.Column="2" Margin="0,15,0,0" >Normal = 60 seconds</Label>
+                                    <Label Style="{StaticResource WhiteForSmallLabel}" Grid.Row="0" Grid.Column="2" Margin="0,30,0,0" >Hard = 20 seconds</Label>
+
+                                    <ProgressBar Name="MyBar" Grid.Row="0" Grid.Column="3" Grid.RowSpan="2" 
+                                                 Style="{DynamicResource pbarCircularStyle}" 
+                                                 Height="130" Width="130"/>
+                                </Grid>
+                            </Border>
+                        </Border>
+                    </Border>
+                </DockPanel>
+
+
+                <Grid Name="MyGrid" Width="800" Height="400" VerticalAlignment="Top">
+                    <Grid.RowDefinitions >
+                        <RowDefinition MinHeight="80"></RowDefinition>
+                        <RowDefinition MinHeight="80"></RowDefinition>
+                        <RowDefinition MinHeight="80"></RowDefinition>
+                        <RowDefinition MinHeight="80"></RowDefinition>
+                        <RowDefinition MinHeight="80"></RowDefinition>
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition MinWidth="160" ></ColumnDefinition>
+                        <ColumnDefinition MinWidth="160" ></ColumnDefinition>
+                        <ColumnDefinition MinWidth="160" ></ColumnDefinition>
+                        <ColumnDefinition MinWidth="160" ></ColumnDefinition>
+                        <ColumnDefinition MinWidth="160" ></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Button x:Name="b1" Grid.Row="0" Grid.Column="0" Click="Button_Click_1"></Button>
+                    <Button x:Name="b2" Grid.Row="0" Grid.Column="1" Click="Button_Click_1"></Button>
+                    <Button x:Name="b3" Grid.Row="0" Grid.Column="2" Click="Button_Click_1"></Button>
+                    <Button x:Name="b4" Grid.Row="0" Grid.Column="3" Click="Button_Click_1"></Button>
+                    <Button x:Name="b5" Grid.Row="0" Grid.Column="4" Click="Button_Click_1"></Button>
+                    <Button x:Name="b6" Grid.Row="1" Grid.Column="0" Click="Button_Click_1"></Button>
+                    <Button x:Name="b7" Grid.Row="1" Grid.Column="1" Click="Button_Click_1"></Button>
+                    <Button x:Name="b8" Grid.Row="1" Grid.Column="2" Click="Button_Click_1"></Button>
+                    <Button x:Name="b9" Grid.Row="1" Grid.Column="3" Click="Button_Click_1"></Button>
+                    <Button x:Name="b10" Grid.Row="1" Grid.Column="4" Click="Button_Click_1"></Button>
+                    <Button x:Name="b11" Grid.Row="2" Grid.Column="0" Click="Button_Click_1"></Button>
+                    <Button x:Name="b12" Grid.Row="2" Grid.Column="1" Click="Button_Click_1"></Button>
+                    <Button x:Name="b13" Grid.Row="2" Grid.Column="2" Click="Button_Click_1"></Button>
+                    <Button x:Name="b14" Grid.Row="2" Grid.Column="3" Click="Button_Click_1"></Button>
+                    <Button x:Name="b15" Grid.Row="2" Grid.Column="4" Click="Button_Click_1"></Button>
+                    <Button x:Name="b16" Grid.Row="3" Grid.Column="0" Click="Button_Click_1"></Button>
+                    <Button x:Name="b17" Grid.Row="3" Grid.Column="1" Click="Button_Click_1"></Button>
+                    <Button x:Name="b18" Grid.Row="3" Grid.Column="2" Click="Button_Click_1"></Button>
+                    <Button x:Name="b19" Grid.Row="3" Grid.Column="3" Click="Button_Click_1"></Button>
+                    <Button x:Name="b20" Grid.Row="3" Grid.Column="4" Click="Button_Click_1"></Button>
+                    <Button x:Name="b21" Grid.Row="4" Grid.Column="0" Click="Button_Click_1"></Button>
+                    <Button x:Name="b22" Grid.Row="4" Grid.Column="1" Click="Button_Click_1"></Button>
+                    <Button x:Name="b23" Grid.Row="4" Grid.Column="2" Click="Button_Click_1"></Button>
+                    <Button x:Name="b24" Grid.Row="4" Grid.Column="3" Click="Button_Click_1"></Button>
+                    <Button x:Name="b25" Grid.Row="4" Grid.Column="4" Click="Button_Click_1"></Button>
+                </Grid>
+
+            </DockPanel>
+        </DockPanel>
+    </ScrollViewer>
+</Window>

@@ -1,0 +1,65 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Syncfusion.Licensing/20.4.0.38": {
+        "runtime": {
+          "lib/netcoreapp3.1/Syncfusion.Licensing.dll": {
+            "assemblyVersion": "20.4.0.38",
+            "fileVersion": "20.4.0.38"
+          }
+        }
+      },
+      "Syncfusion.SfProgressBar.WPF/20.4.0.38": {
+        "dependencies": {
+          "Syncfusion.Licensing": "20.4.0.38",
+          "Syncfusion.Shared.WPF": "20.4.0.38"
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.SfProgressBar.WPF.dll": {
+            "assemblyVersion": "20.4460.0.38",
+            "fileVersion": "20.4460.0.38"
+          }
+        }
+      },
+      "Syncfusion.Shared.WPF/20.4.0.38": {
+        "dependencies": {
+          "Syncfusion.Licensing": "20.4.0.38"
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.Shared.WPF.dll": {
+            "assemblyVersion": "20.4460.0.38",
+            "fileVersion": "20.4460.0.38"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Syncfusion.Licensing/20.4.0.38": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-enfiA96dTn750pMkxLKLpnBAuGHFALgrMfAH1heNmU2RDGie1MayImifolX05PdMaF/zgnfGp+Tyefe65hvg+Q==",
+      "path": "syncfusion.licensing/20.4.0.38",
+      "hashPath": "syncfusion.licensing.20.4.0.38.nupkg.sha512"
+    },
+    "Syncfusion.SfProgressBar.WPF/20.4.0.38": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zEF4XERPL2P8QFqRns/T0cpXlJovWrvfZhkP4M/Uv0kuaG8OwG+wkZAmhmPySwcEn3puivqs4QjVroSU420dSg==",
+      "path": "syncfusion.sfprogressbar.wpf/20.4.0.38",
+      "hashPath": "syncfusion.sfprogressbar.wpf.20.4.0.38.nupkg.sha512"
+    },
+    "Syncfusion.Shared.WPF/20.4.0.38": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-D54NqYHWOmKfxG7abg5QbU+vtryNdMzWDljacarhbxu8157n+mXeF/++FGrb0Ce/whC526TBWCUX/w8xW8r11g==",
+      "path": "syncfusion.shared.wpf/20.4.0.38",
+      "hashPath": "syncfusion.shared.wpf.20.4.0.38.nupkg.sha512"
+    }
+  }
+}

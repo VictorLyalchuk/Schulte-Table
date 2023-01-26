@@ -1,0 +1,96 @@
+C:\Users\Віктор\source\repos\Operation 219\Operation 219\bin\Debug\net5.0-windows\Operation 219.exe
+C:\Users\Віктор\source\repos\Operation 219\Operation 219\bin\Debug\net5.0-windows\Operation 219.deps.json
+C:\Users\Віктор\source\repos\Operation 219\Operation 219\bin\Debug\net5.0-windows\Operation 219.runtimeconfig.json
+C:\Users\Віктор\source\repos\Operation 219\Operation 219\bin\Debug\net5.0-windows\Operation 219.runtimeconfig.dev.json
+C:\Users\Віктор\source\repos\Operation 219\Operation 219\bin\Debug\net5.0-windows\Operation 219.dll
+C:\Users\Віктор\source\repos\Operation 219\Operation 219\bin\Debug\net5.0-windows\Operation 219.pdb
+C:\Users\Віктор\source\repos\Operation 219\Operation 219\obj\Debug\net5.0-windows\Operation 219.csproj.AssemblyReference.cache
+C:\Users\Віктор\source\repos\Operation 219\Operation 219\obj\Debug\net5.0-windows\MainWindow.g.cs
+C:\Users\Віктор\source\repos\Operation 219\Operation 219\obj\Debug\net5.0-windows\App.g.cs
+C:\Users\Віктор\source\repos\Operation 219\Operation 219\obj\Debug\net5.0-windows\Operation 219_MarkupCompile.cache
+C:\Users\Віктор\source\repos\Operation 219\Operation 219\obj\Debug\net5.0-windows\Operation 219_MarkupCompile.lref
+C:\Users\Віктор\source\repos\Operation 219\Operation 219\obj\Debug\net5.0-windows\MainWindow.baml
+C:\Users\Віктор\source\repos\Operation 219\Operation 219\obj\Debug\net5.0-windows\Operation 219.g.resources
+C:\Users\Віктор\source\repos\Operation 219\Operation 219\obj\Debug\net5.0-windows\Operation 219.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Віктор\source\repos\Operation 219\Operation 219\obj\Debug\net5.0-windows\Operation 219.AssemblyInfoInputs.cache
+C:\Users\Віктор\source\repos\Operation 219\Operation 219\obj\Debug\net5.0-windows\Operation 219.AssemblyInfo.cs
+C:\Users\Віктор\source\repos\Operation 219\Operation 219\obj\Debug\net5.0-windows\Operation 219.csproj.CoreCompileInputs.cache
+C:\Users\Віктор\source\repos\Operation 219\Operation 219\obj\Debug\net5.0-windows\Operation 219.dll
+C:\Users\Віктор\source\repos\Operation 219\Operation 219\obj\Debug\net5.0-windows\refint\Operation 219.dll
+C:\Users\Віктор\source\repos\Operation 219\Operation 219\obj\Debug\net5.0-windows\Operation 219.pdb
+C:\Users\Віктор\source\repos\Operation 219\Operation 219\obj\Debug\net5.0-windows\Operation 219.genruntimeconfig.cache
+C:\Users\Віктор\source\repos\Operation 219\Operation 219\obj\Debug\net5.0-windows\ref\Operation 219.dll
+C:\Users\Віктор\source\repos\Operation 219\Operation 219\bin\Debug\net5.0-windows\Image\1.png
+C:\Users\Віктор\source\repos\Operation 219\Operation 219\obj\Debug\net5.0-windows\Operation 219_Content.g.cs
+C:\Users\Віктор\source\repos\Operation 219\Operation 219\bin\Debug\net5.0-windows\Image\2.png
+C:\Users\Віктор\source\repos\Operation 219\Operation 219\bin\Debug\net5.0-windows\Image\3.png
+C:\Users\Віктор\source\repos\Operation 219\Operation 219\bin\Debug\net5.0-windows\Image\4.png
+C:\Users\Віктор\source\repos\Operation 219\Operation 219\bin\Debug\net5.0-windows\Image\11.png
+C:\Users\Віктор\source\repos\Operation 219\Operation 219\bin\Debug\net5.0-windows\Image\22.png
+C:\Users\Віктор\source\repos\Operation 219\Operation 219\bin\Debug\net5.0-windows\Image\33.png
+C:\Users\Віктор\Desktop\WPF\Day 003\Operation 219\Operation 219\obj\Debug\net5.0-windows\Operation 219.csproj.AssemblyReference.cache
+C:\Users\Віктор\Desktop\WPF\Day 003\Operation 219\Operation 219\obj\Debug\net5.0-windows\App.g.cs
+C:\Users\Віктор\Desktop\WPF\Day 003\Operation 219\Operation 219\obj\Debug\net5.0-windows\Operation 219_Content.g.cs
+C:\Users\Віктор\Desktop\WPF\Day 003\Operation 219\Operation 219\obj\Debug\net5.0-windows\Operation 219_MarkupCompile.cache
+C:\Users\Віктор\Desktop\WPF\Day 003\Operation 219\Operation 219\obj\Debug\net5.0-windows\Operation 219.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Віктор\Desktop\WPF\Day 003\Operation 219\Operation 219\obj\Debug\net5.0-windows\Operation 219.AssemblyInfoInputs.cache
+C:\Users\Віктор\Desktop\WPF\Day 003\Operation 219\Operation 219\obj\Debug\net5.0-windows\Operation 219.AssemblyInfo.cs
+C:\Users\Віктор\Desktop\WPF\Day 003\Operation 219\Operation 219\obj\Debug\net5.0-windows\Operation 219.csproj.CoreCompileInputs.cache
+C:\Users\Віктор\Desktop\WPF\Day 003\Operation 219\Operation 219\obj\Debug\net5.0-windows\Operation 219.dll
+C:\Users\Віктор\Desktop\WPF\Day 003\Operation 219\Operation 219\obj\Debug\net5.0-windows\refint\Operation 219.dll
+C:\Users\Віктор\Desktop\WPF\Day 003\Operation 219\Operation 219\obj\Debug\net5.0-windows\Operation 219.pdb
+C:\Users\Віктор\Desktop\WPF\Day 003\Operation 219\Operation 219\bin\Debug\net5.0-windows\Image\1.png
+C:\Users\Віктор\Desktop\WPF\Day 003\Operation 219\Operation 219\bin\Debug\net5.0-windows\Image\11.png
+C:\Users\Віктор\Desktop\WPF\Day 003\Operation 219\Operation 219\bin\Debug\net5.0-windows\Image\2.png
+C:\Users\Віктор\Desktop\WPF\Day 003\Operation 219\Operation 219\bin\Debug\net5.0-windows\Image\22.png
+C:\Users\Віктор\Desktop\WPF\Day 003\Operation 219\Operation 219\bin\Debug\net5.0-windows\Image\3.png
+C:\Users\Віктор\Desktop\WPF\Day 003\Operation 219\Operation 219\bin\Debug\net5.0-windows\Image\33.png
+C:\Users\Віктор\Desktop\WPF\Day 003\Operation 219\Operation 219\bin\Debug\net5.0-windows\Image\4.png
+C:\Users\Віктор\Desktop\WPF\Day 003\Operation 219\Operation 219\bin\Debug\net5.0-windows\Operation 219.exe
+C:\Users\Віктор\Desktop\WPF\Day 003\Operation 219\Operation 219\bin\Debug\net5.0-windows\Operation 219.deps.json
+C:\Users\Віктор\Desktop\WPF\Day 003\Operation 219\Operation 219\bin\Debug\net5.0-windows\Operation 219.runtimeconfig.json
+C:\Users\Віктор\Desktop\WPF\Day 003\Operation 219\Operation 219\bin\Debug\net5.0-windows\Operation 219.runtimeconfig.dev.json
+C:\Users\Віктор\Desktop\WPF\Day 003\Operation 219\Operation 219\bin\Debug\net5.0-windows\Operation 219.dll
+C:\Users\Віктор\Desktop\WPF\Day 003\Operation 219\Operation 219\bin\Debug\net5.0-windows\Operation 219.pdb
+C:\Users\Віктор\Desktop\WPF\Day 003\Operation 219\Operation 219\obj\Debug\net5.0-windows\MainWindow.g.cs
+C:\Users\Віктор\Desktop\WPF\Day 003\Operation 219\Operation 219\obj\Debug\net5.0-windows\Operation 219_MarkupCompile.lref
+C:\Users\Віктор\Desktop\WPF\Day 003\Operation 219\Operation 219\obj\Debug\net5.0-windows\MainWindow.baml
+C:\Users\Віктор\Desktop\WPF\Day 003\Operation 219\Operation 219\obj\Debug\net5.0-windows\Operation 219.g.resources
+C:\Users\Віктор\Desktop\WPF\Day 003\Operation 219\Operation 219\obj\Debug\net5.0-windows\Operation 219.genruntimeconfig.cache
+C:\Users\Віктор\Desktop\WPF\Day 003\Operation 219\Operation 219\obj\Debug\net5.0-windows\ref\Operation 219.dll
+C:\Users\userVictor\Desktop\WPF\Exam\Exam\Operation 219\obj\Debug\net5.0-windows\Operation 219.csproj.AssemblyReference.cache
+C:\Users\userVictor\Desktop\WPF\Exam\Exam\Operation 219\obj\Debug\net5.0-windows\MainWindow.g.cs
+C:\Users\userVictor\Desktop\WPF\Exam\Exam\Operation 219\obj\Debug\net5.0-windows\App.g.cs
+C:\Users\userVictor\Desktop\WPF\Exam\Exam\Operation 219\obj\Debug\net5.0-windows\Operation 219_Content.g.cs
+C:\Users\userVictor\Desktop\WPF\Exam\Exam\Operation 219\obj\Debug\net5.0-windows\Operation 219_MarkupCompile.cache
+C:\Users\userVictor\Desktop\WPF\Exam\Exam\Operation 219\obj\Debug\net5.0-windows\Operation 219_MarkupCompile.lref
+C:\Users\userVictor\Desktop\WPF\Exam\Exam\Operation 219\obj\Debug\net5.0-windows\Operation 219.dll
+C:\Users\userVictor\Desktop\WPF\Exam\Exam\Operation 219\obj\Debug\net5.0-windows\refint\Operation 219.dll
+C:\Users\userVictor\Desktop\WPF\Exam\Exam\Operation 219\obj\Debug\net5.0-windows\Operation 219.pdb
+C:\Users\userVictor\Desktop\WPF\Exam\Exam\Operation 219\bin\Debug\net5.0-windows\Image\1.png
+C:\Users\userVictor\Desktop\WPF\Exam\Exam\Operation 219\bin\Debug\net5.0-windows\Image\11.png
+C:\Users\userVictor\Desktop\WPF\Exam\Exam\Operation 219\bin\Debug\net5.0-windows\Image\2.png
+C:\Users\userVictor\Desktop\WPF\Exam\Exam\Operation 219\bin\Debug\net5.0-windows\Image\22.png
+C:\Users\userVictor\Desktop\WPF\Exam\Exam\Operation 219\bin\Debug\net5.0-windows\Image\3.png
+C:\Users\userVictor\Desktop\WPF\Exam\Exam\Operation 219\bin\Debug\net5.0-windows\Image\33.png
+C:\Users\userVictor\Desktop\WPF\Exam\Exam\Operation 219\bin\Debug\net5.0-windows\Image\4.png
+C:\Users\userVictor\Desktop\WPF\Exam\Exam\Operation 219\bin\Debug\net5.0-windows\Operation 219.exe
+C:\Users\userVictor\Desktop\WPF\Exam\Exam\Operation 219\bin\Debug\net5.0-windows\Operation 219.deps.json
+C:\Users\userVictor\Desktop\WPF\Exam\Exam\Operation 219\bin\Debug\net5.0-windows\Operation 219.runtimeconfig.json
+C:\Users\userVictor\Desktop\WPF\Exam\Exam\Operation 219\bin\Debug\net5.0-windows\Operation 219.runtimeconfig.dev.json
+C:\Users\userVictor\Desktop\WPF\Exam\Exam\Operation 219\bin\Debug\net5.0-windows\Operation 219.dll
+C:\Users\userVictor\Desktop\WPF\Exam\Exam\Operation 219\bin\Debug\net5.0-windows\Operation 219.pdb
+C:\Users\userVictor\Desktop\WPF\Exam\Exam\Operation 219\obj\Debug\net5.0-windows\MainWindow.baml
+C:\Users\userVictor\Desktop\WPF\Exam\Exam\Operation 219\obj\Debug\net5.0-windows\Operation 219.g.resources
+C:\Users\userVictor\Desktop\WPF\Exam\Exam\Operation 219\obj\Debug\net5.0-windows\Operation 219.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\userVictor\Desktop\WPF\Exam\Exam\Operation 219\obj\Debug\net5.0-windows\Operation 219.AssemblyInfoInputs.cache
+C:\Users\userVictor\Desktop\WPF\Exam\Exam\Operation 219\obj\Debug\net5.0-windows\Operation 219.AssemblyInfo.cs
+C:\Users\userVictor\Desktop\WPF\Exam\Exam\Operation 219\obj\Debug\net5.0-windows\Operation 219.csproj.CoreCompileInputs.cache
+C:\Users\userVictor\Desktop\WPF\Exam\Exam\Operation 219\obj\Debug\net5.0-windows\Operation 219.genruntimeconfig.cache
+C:\Users\userVictor\Desktop\WPF\Exam\Exam\Operation 219\obj\Debug\net5.0-windows\ref\Operation 219.dll
+C:\Users\userVictor\Desktop\WPF\Exam\Exam\Operation 219\bin\Debug\net5.0-windows\Syncfusion.Licensing.dll
+C:\Users\userVictor\Desktop\WPF\Exam\Exam\Operation 219\bin\Debug\net5.0-windows\Syncfusion.SfProgressBar.WPF.dll
+C:\Users\userVictor\Desktop\WPF\Exam\Exam\Operation 219\bin\Debug\net5.0-windows\Syncfusion.Shared.WPF.dll
+C:\Users\userVictor\Desktop\WPF\Exam\Exam\Operation 219\obj\Debug\net5.0-windows\Operation 219.csproj.CopyComplete
+C:\Users\userVictor\Desktop\WPF\Exam\Exam\Operation 219\obj\Debug\net5.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\userVictor\Desktop\WPF\Exam\Exam\Operation 219\bin\Debug\net5.0-windows\Image\7.png
